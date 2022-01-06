@@ -3,8 +3,16 @@ import './App.css';
 
 function App() {
   return (
-    <div>
-      <h2></h2>
+    <div className="main-container">
+      <div className="containerOne">
+
+      </div>
+      <div className="containerTwo">
+
+      </div>
+      <div className="containerThree">
+      
+      </div>  
 
 
       
