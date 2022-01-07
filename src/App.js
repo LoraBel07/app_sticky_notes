@@ -1,21 +1,11 @@
 
 import './App.css';
+import { StickyNotes } from './StickyNotes';
 
 function App() {
   return (
-    <div className="main-container">
-      <div className="containerOne">
-
-      </div>
-      <div className="containerTwo">
-
-      </div>
-      <div className="containerThree">
-      
-      </div>  
-
-
-      
+    <div className="app">
+      <StickyNotes />      
       
     </div>
   );

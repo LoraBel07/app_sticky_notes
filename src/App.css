@@ -7,3 +7,40 @@ body {
 	font-family: 'Courgette', cursive; 
 	font-size: 25px; ;
 }
+.main-container {
+	width: 95%;
+	margin: auto;
+}
+.btn {
+	margin-left: 40%;
+	margin-top: 3%;
+	background-color: green;
+	color: #fff;
+	border: none;
+	box-shadow: 10px 10px 24px 0px rgba(0,0,0,0.75);
+	width: 20%;
+	height: 30px;
+	font-family: 'Courgette', cursive; 
+	font-size: 20px;
+}
+ul, li {
+	list-style-type: none;
+	padding: 10px;
+	margin: 0;
+	font-size: 20px;
+	font-family: 'Courgette', cursive; 
+}
+.containerInp {
+	/* display: none; */
+	position: absolute;
+	top: 26%;
+	left:40%;
+}
+textarea {
+	box-shadow: 10px 10px 24px 0px rgba(0,0,0,0.75);
+	outline: none;
+	border: none;
+	width: 250px;
+	height: 200px;
+	padding: 60px 25px 25px 25px;
+}
