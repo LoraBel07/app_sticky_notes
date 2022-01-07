@@ -7,9 +7,9 @@ body {
 	font-family: 'Courgette', cursive; 
 	font-size: 25px; ;
 }
-.main-container {
-	width: 95%;
-	margin: auto;
+button {
+	background-color: rgba(128, 128, 128, 0);
+	border: none;
 }
 /* .btn {
 	margin-left: 40%;
@@ -44,7 +44,7 @@ ul, li {
 	top: 6%;
 	left:40%;
 }
-textarea {
+input {
 	box-shadow: 10px 10px 24px 0px rgba(0,0,0,0.75);
 	outline: none;
 	border: none;
