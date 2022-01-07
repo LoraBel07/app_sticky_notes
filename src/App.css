@@ -11,7 +11,7 @@ body {
 	width: 95%;
 	margin: auto;
 }
-.btn {
+/* .btn {
 	margin-left: 40%;
 	margin-top: 3%;
 	background-color: green;
@@ -22,7 +22,7 @@ body {
 	height: 30px;
 	font-family: 'Courgette', cursive; 
 	font-size: 20px;
-}
+} */
 ul, li {
 	list-style-type: none;
 	padding: 10px;
@@ -30,10 +30,18 @@ ul, li {
 	font-size: 20px;
 	font-family: 'Courgette', cursive; 
 }
+.containerNotes {
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	margin-top: 4%;
+	margin-left: 7%;
+	
+}
 .containerInp {
 	/* display: none; */
 	position: absolute;
-	top: 26%;
+	top: 6%;
 	left:40%;
 }
 textarea {
@@ -41,6 +49,20 @@ textarea {
 	outline: none;
 	border: none;
 	width: 250px;
-	height: 200px;
+	height: 60px;
 	padding: 60px 25px 25px 25px;
 }
+.onIcon, .offIcon {
+	position: absolute;
+	top: 4%;
+}
+.onIcon {
+	right:20%
+}
+.offIcon {
+	right: 5%;
+}
+.crossed {
+	text-decoration: line-through 2px red;
+	background-color: #f0f0f0;
+  }
