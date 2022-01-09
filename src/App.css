@@ -53,7 +53,7 @@ form {
 .containerInp {
 	/* display: none; */
 	position: absolute;
-	top: 6%;
+	top: 3%;
 	justify-self: center;
 }
 input {
@@ -61,7 +61,7 @@ input {
 	outline: none;
 	border: none;
 	width: 250px;
-	height: 60px;
+	height: 40px;
 	padding: 60px 25px 25px 25px;
 	font-family: 'Courgette', cursive; 
 	font-size: 20px;
