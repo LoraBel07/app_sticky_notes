@@ -1,4 +1,4 @@
-<h1>✨   This is my app app for creating notes or or a list of reminders.  ✨</h1>
+<h2>✨   This is my app app for creating notes or or a list of reminders.  ✨</h2>
 
 
 
