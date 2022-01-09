@@ -37,11 +37,11 @@ export class StickyNotes extends Component {
 		listArray = [];
 		this.setState({notesSet: listArray});		
 	}
-	handleDelete = itemId => {
-		alert("Button Clicked!");
-		// const items = this.state.items.filter(item => item.id !== itemId);
-		// this.setState({ items: items });
-	};
+	// handleDelete = itemId => {
+	// 	alert("Button Clicked!");
+	// const items = this.state.items.filter(item => item.id !== itemId);
+	// this.setState({ items: items });
+	// };
 
 			
 	onChangeEvent(e) {
@@ -75,9 +75,9 @@ export class StickyNotes extends Component {
 								<p id="note" onClick={ this.crossedWord } onDblClick={ this.deleteNote } key={index}>
 									<img className="pin" src={pin} alt="pin" width="85px"/>
 									{item}
-									<button className="offIconNote" onClick={() => this.props.onDelete(this.props.id)}>
+									{/* <button className="offIconNote" onClick={() => this.props.onDelete(this.props.id)}>
 									<img src={offIcon} alt="off icon" width="30px"/>
-									</button>
+									</button> */}
 									
 									</p>
 							))}	

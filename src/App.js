@@ -5,7 +5,7 @@ import { StickyNotes } from './StickyNotes';
 function App() {
   return (
     <div className="app">
-      <StickyNotes />      
+      <StickyNotes />
       
     </div>
   );

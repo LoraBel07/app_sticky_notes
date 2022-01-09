@@ -20,8 +20,8 @@ ul, li {
 	font-family: 'Courgette', cursive; 
 }
 .containerNotes {
-	display: flex;	
-	justify-content: space-evenly;
+	display: flex;
+	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;	
 	margin-top: 15%;
@@ -35,7 +35,7 @@ p {
 	width: 250px;
 	height: 250px;
 	padding: 15px;
-	margin: 5px;
+	margin: 6px;
 }
 .pin {
 	margin-left: 35%;
@@ -47,7 +47,7 @@ p {
 }
 form {
 	display: flex;
-	justify-content: center;
+	justify-content: space-evenly;
 }
 
 .containerInp {
@@ -81,7 +81,4 @@ input {
 	text-decoration: line-through 2px red;
 	background-color: #f0f0f0;
 	background-image: linear-gradient(315deg, #f0f0f0 0%, #aaaaa9 74%);
-}
-.removed {
-	display: none;
 }
