@@ -1,6 +1,9 @@
 <h2>    📝  This is my app for creating notes or a list of reminders. 📌   </h2>
 
 
+https://app-sticky-notes.netlify.app/
+
+
 
 
 ![notes1](https://user-images.githubusercontent.com/91973134/148666471-08c86d46-59ad-4b98-8253-a9446336f86d.jpg)
