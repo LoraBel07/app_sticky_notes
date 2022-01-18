@@ -4,7 +4,10 @@
 }
 body {
 	/* background-color:#c68c53ab;  */
-	background-image: url(backdr.jpg);
+	/* background-image: url(backdr.jpg); */
+	background-image: url(backlt2.jpg);
+	background-position: top;
+	background-repeat: repeat-x;
 	font-family: 'Courgette', cursive; 
 	font-size: 25px; ;
 }
@@ -89,8 +92,6 @@ input {
 		margin-top: 23%;
 	}
 }
-
-
 
 @media all and (max-width: 550px) {
 	.containerNotes {
