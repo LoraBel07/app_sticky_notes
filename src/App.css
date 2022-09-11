@@ -3,12 +3,14 @@
 	margin: 0;
 }
 body {
-	background-color:#c68c53ab; 
-	/* background-image: url(backwood.jpg);	 */
-	/* background-position: top; */
-	/* background-size: cover; */
+	background-color:bisque; 
 	font-family: 'Courgette', cursive; 
 	font-size: 25px; ;
+}
+.app {
+	width: 100vw;
+	height: 100vh;
+
 }
 button {
 	background-color: rgba(128, 128, 128, 0);
@@ -59,6 +61,12 @@ form {
 	top: 14%;
 	justify-self: center;
 }
+#dark input {
+	background-color: rgb(185, 164, 143);
+}
+#light input {
+	background-color:rgb(242, 216, 190);
+}
 input {
 	box-shadow: 10px 10px 24px 0px rgba(0,0,0,0.75);
 	outline: none;
@@ -101,6 +109,13 @@ input {
 	text-decoration: line-through 2px red;
 	background-color: #f0f0f0;
 	background-image: linear-gradient(315deg, #f0f0f0 0%, #aaaaa9 74%);
+}
+
+#light {
+	background-color: rgb(226, 203, 175);
+}
+#dark {
+	background-color: rgb(72, 60, 49);
 }
 
 
