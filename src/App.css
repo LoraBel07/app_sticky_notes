@@ -3,14 +3,21 @@
 	margin: 0;
 }
 body {
-	background-color:bisque; 
 	font-family: 'Courgette', cursive; 
 	font-size: 25px; ;
 }
 .app {
 	width: 100vw;
 	height: 100vh;
-
+	padding: 0;
+	margin: 0;
+	font-family: 'Courgette', cursive; 
+}
+.switch {
+	display: flex;	
+	justify-content: center;
+	padding: 10px;
+	
 }
 button {
 	background-color: rgba(128, 128, 128, 0);
@@ -22,7 +29,6 @@ ul, li {
 	padding: 10px;
 	margin: 0;
 	font-size: 20px;
-	font-family: 'Courgette', cursive; 
 }
 .containerNotes {
 	display: flex;
@@ -56,16 +62,24 @@ form {
 }
 
 .containerInp {
-	/* display: none; */
 	position: absolute;
 	top: 14%;
 	justify-self: center;
 }
+#light,
+#light .containerNotes {
+	background-color: rgb(226, 203, 175);
+}
+#dark,
+#dark .containerNotes {
+	background-color: rgb(72, 60, 49);
+}
 #dark input {
-	background-color: rgb(185, 164, 143);
+	background-color: rgb(216, 194, 172);
+	box-shadow: 10px 10px 24px 0px rgba(185, 164, 143, 0.782);
 }
 #light input {
-	background-color:rgb(242, 216, 190);
+	background-color:rgb(247, 233, 219);
 }
 input {
 	box-shadow: 10px 10px 24px 0px rgba(0,0,0,0.75);
@@ -93,14 +107,12 @@ input {
 }
 .bkg {
 	position: absolute;
-	/* right: 50%; */
 	top: 2%;
 	width: 15%;
 	height: 10;
 	background-color: #fff;
 	box-shadow: 10px 10px 24px 0px rgba(0,0,0,0.75);
 	padding: 5px;
-	font-family: 'Courgette', cursive; 
 	font-size: 20px;
 	justify-self: center;
 }
